@@ -5,7 +5,6 @@ import { Song } from "@/types";
 import Image from "next/image";
 import PlayButton from "./PlayButton";
 
-
 interface SongItemProps{
     data:Song;
     onClick: (id:string) => void;
