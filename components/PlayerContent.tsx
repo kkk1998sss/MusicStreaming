@@ -74,7 +74,6 @@ const PlayerContent: React.FC<PlayerContentProps> = ({ song, songUrl }) => {
     }
     player.setId(previousSong);
   };
-  //   finding duration of songs
   useEffect(() => {
     
     const handleLoadedMetadata = () => {
