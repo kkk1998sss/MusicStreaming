@@ -4,7 +4,7 @@ import { BsPauseFill, BsPlayFill } from "react-icons/bs";
 import { useEffect, useState } from "react";
 import { AiFillStepBackward, AiFillStepForward } from "react-icons/ai";
 import { HiSpeakerXMark, HiSpeakerWave } from "react-icons/hi2";
-import useSound from "use-sound";
+// import useSound from "use-sound";
 import MediaItem from "./MediaItem";
 import LikeButton from "./LikeButton";
 import Slider from "./Slider";
