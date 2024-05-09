@@ -30,7 +30,7 @@ const UploadModal = () => {
         }
     });
 
-    const onChange = (open: boolean) =>{
+    const onChange = (open: Boolean) =>{
         if(!open){
             reset();
             uploadModal.onClose();
