@@ -39,9 +39,7 @@ export default async function RootLayout({
               </Sidebar>
               <Player/>
           </UserProvider>
-          
-        </SupabaseProvider>
-        
+        </SupabaseProvider>  
         </body>
     </html>
   )

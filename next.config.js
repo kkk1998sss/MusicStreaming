@@ -1,9 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    
-    images:{
-        domains:["dzprrrwpybqxebloajfs.supabase.co"]
-    }
-}
+    output: "export", // <=== enables static exports
+  images: {
+    domains: ["dzprrrwpybqxebloajfs.supabase.co"],
+  },
+//   reactStrictMode: true,
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
